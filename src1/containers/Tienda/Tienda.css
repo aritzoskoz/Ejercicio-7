@@ -1,0 +1,21 @@
+.Productos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+
+.Carrito {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    width: 70%;
+    margin: auto;
+}
+
+.Completo {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+}

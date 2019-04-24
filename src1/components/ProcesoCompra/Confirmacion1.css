@@ -1,0 +1,54 @@
+/* Confirmacion*/
+.carrito {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 30px; 
+}
+
+
+/* Confirmacion1*/
+.Confirmacion1 {
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 0 3px 3px #ccc;
+    text-align: center;
+}
+
+.Confirmacion1 label {
+    display: block;
+    margin: 8px auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+.Confirmacion1 input,
+.Confirmacion1 textarea,
+.Confirmacion1 select {
+    display: block;
+    width: 75%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    outline: none;
+    font: inherit;
+    margin: auto;
+}
+
+.Confirmacion1 button {
+    margin: 18px;
+    padding: 8px;
+    font: inherit;
+    border: 2px solid #f8be00;
+    background-color: transparent;
+    color: #f8be00;
+    cursor: pointer;
+}
+
+.Confirmacion1 button:hover,
+.Confirmacion1 button:active {
+    color: white;
+    background-color: #f8be00;
+}

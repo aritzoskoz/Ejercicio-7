@@ -1,0 +1,19 @@
+Funcional de la webapp en React
+
+Realización y gestión de pedidos
+
+Desde la página principal tendremos un listado de productos representados por un nombre e imagen. Cada producto tendrá las opciones + y – para añadir o eliminar unidades a nuestro pedido. Estos productos se deben cargar de la base de datos.
+Al ir pulsando + en cada producto se irá completando nuestro carrito. Se mostrará un listado de miniaturas de cada producto en función del número acumulado. Se mostrará también el número de unidades del producto.
+Será necesario indicar el total del pedido. El precio de cada producto se define en su ficha en la base de datos.
+Añadir un botón REALIZAR PEDIDO.
+
+Al pulsarlo, se mostrará una pantalla de confirmación de pedido con los detalles de nuestra compra, el total y las opciones de CONTINUAR o VOLVER.
+
+Pulsando continuar, un formulario nos solicitará información adicional de la persona que hace la solicitud y la dirección de envío. Pulsaremos REALIZAR PEDIDO.
+
+Grabaremos el pedido en la base de datos, y mostraremos una pantalla de agradecimiento al usuario. Mostraremos un botón para REALIZAR UN NUEVO PEDIDO.
+
+Un menú superior nos dará opción de acceder a la página principal de realización de pedido y tendrá una segunda opción para ver los PEDIDOS realizados. Esta nueva pantalla mostrará un listado de los pedidos, que se podrán pulsar para ver la ficha completa del mismo con información del solicitante.
+
+No se requiere editar un pedido, pero sí vamos a poder borrarlo. Con un mensaje de confirmación previo, claro. Y también nos permitirá cargar desde PEDIDOS un pedido, para seguir haciendo una compra a partir de él.
+
